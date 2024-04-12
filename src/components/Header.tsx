@@ -15,10 +15,10 @@ function Header() {
         <div className='offcanvas-body'>
           <ul className='navbar-nav justify-content-end flex-grow-1 pe-3'>
           <li className='nav-item'>
-            <Link className='nav-link mx-lg-2' aria-current='page' to='/'>Home</Link>
+            <Link className='nav-link mx-lg-2' aria-current='page' to='/website'>Home</Link>
           </li>
           <li className='nav-item'>
-            <Link className='nav-link mx-lg-2' to='/projects'>Projects</Link>
+            <Link className='nav-link mx-lg-2' to='/website/projects'>Projects</Link>
           </li>
           </ul>
         </div>
