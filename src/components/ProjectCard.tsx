@@ -8,7 +8,7 @@ interface ProjectProps {
     techstack: string[];
 }
 
-function ProjectCard ({title, description, img, techstack}: ProjectProps){
+function ProjectCard ({title, description, img}: ProjectProps){
     return (
         <div className='col'>
             <div className='card'>

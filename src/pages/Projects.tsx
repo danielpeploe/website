@@ -28,7 +28,7 @@ function Projects() {
                 <h1>Projects</h1>
                 <div className='row row-cols-1 row-cols-md-3 g-4'>
                     {projects.map((project: any, index: number) => (
-                        <ProjectCard key={index} title={project.title} description={project.description} img={project.img} techstack={project.techstack} />
+                        <ProjectCard key={index} title={project.title} description={project.description} img={project.img} />
                     ))}
                 </div>
             </div> 
