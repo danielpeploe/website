@@ -5,7 +5,6 @@ interface ProjectProps {
     title: string;
     description: string;
     img: string;
-    techstack: string[];
 }
 
 function ProjectCard ({title, description, img}: ProjectProps){
