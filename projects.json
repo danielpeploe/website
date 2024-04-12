@@ -3,14 +3,14 @@
       "id": 1,
       "title": "ECKO - Sports Communication App",
       "description": "I collaborated within an agile scrum team of 7 to create a communication application featuring chatrooms and forums. Leveraged tools like Spring Boot and project management software such as Gradle, Git, and a CI/CD pipeline. Our QA approach included regression testing with JUnit and Cucumber.",
-      "img": "src/static/img/ECKO.png",
+      "img": "ECKO.png",
       "techstack": []
     },
     {
       "id": 2,
       "title": "EVOH - EV Route and Charger App",
       "description": "This project was undertaken within a team of 6 to develop an application for electric vehicle drivers to find the nearest charging station to the user. The project involved the use of external libraries, API’s such as OpenStreetsMap, and technologies such as Maven, Git, and JavaFX.",
-      "img": "src/static/img/EVOH.png",
+      "img": "EVOH.png",
       "techstack": []
     }
     ,
@@ -18,28 +18,28 @@
       "id": 3,
       "title": "Personal Portfolio",
       "description": "My own personal portfolio and website is something that I have wanted to develop for a long time. I hope to continuously update this website and experiment with new projects such as a youtube to MP3 downloader. This was implemented using Typescript and React along with Bootstrap for styling. The repository is available on my GitHub profile.",
-      "img": "src/static/img/Portfolio.png",
+      "img": "Portfolio.png",
       "techstack": []
     },
     {
       "id": 4,
       "title": "Monster Fighter",
       "description": "This was one of my first ever software projects which was a turn based fighting game involving pixel monsters. Additionally, there was a day and night system, shop, and random encounters. The project was developed in Java, utilising the Swing toolkit for the GUI aspects of the game.",
-      "img": "src/static/img/MonsterFighter.png",
+      "img": "MonsterFighter.png",
       "techstack": []
     },
     {
       "id": 5,
       "title": "Ray Tracer",
       "description": "I implemented a ray tracer program that can handle different scenes and geometric shapes using OpenGL. The program handles use of light refraction and reflection, shadows, and object transparency.",
-      "img": "src/static/img/RayTracer.png",
+      "img": "RayTracer.png",
       "techstack": []
     },
     {
       "id": 6,
       "title": "Retinal Image Classifier",
       "description": "As a part of my final year research project, I am currently in the process of implementing a classifier algorithm to aid in the detection of Diabetic Retinopathy and Age-related macular degeneration in retinal images. I will make use of Python and TensorFlow in the project.",
-      "img": "src/static/img/RetinalImaging.png",
+      "img": "RetinalImaging.png",
       "techstack": []
     }
 ]
