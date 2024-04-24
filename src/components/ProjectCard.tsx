@@ -8,9 +8,11 @@ interface ProjectProps {
 }
 
 function ProjectCard ({title, description, img}: ProjectProps){
+    var isLightMode = document.body.classList.contains('light-mode');
+
     return (
         <div className='col'>
-            <div className='card'>
+            <div className={isLightMode ? 'card lightmode' : 'card'}>
                 <img src={img} className='card-img-top'></img>
                 <div className='card-body'>
                     <h5 className='card-title'>{title}</h5>

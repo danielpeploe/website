@@ -12,6 +12,12 @@
     --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(212,212,212, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
+.navbar.navbar-expand-lg.light-mode {
+    background-color: #edeced !important;
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(40,40,40, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+
+}
+
 .navbar .navbar-toggler {
     border: none;
     font-size: 1.25rem;
@@ -19,9 +25,15 @@
 }
 
 .offcanvas.offcanvas-end {
-    background-color: #232323;
     max-width: 200px;
-    color: #d4d4d4;
+    background-color: #232323 !important;
+    color: #d4d4d4 !important;
+}
+
+
+.offcanvas.offcanvas-end.light-mode {
+    background-color: #edeced !important;
+    color: #282828 !important;
 }
 
 .navbar .navbar-toggler:focus, .btn-close:focus {
@@ -32,6 +44,14 @@
 .nav-link {
     position: relative;
     color: #d4d4d4 !important;
+    font-weight: 500;
+    font-family: monospace;
+}
+
+
+.nav-link.mx-lg-2.lightmode {
+    position: relative;
+    color: #282828 !important;
     font-weight: 500;
     font-family: monospace;
 }
@@ -59,8 +79,16 @@
 }
 
 .name {
-    color: #d4d4d4;
     text-decoration: none;
     font-size: 20px;
     font-family: monospace;
+    margin-bottom: 0;
 }
+  
+.toggle-dark-mode {
+    padding: 8px 20px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0;
+}
+  

@@ -1,0 +1,10 @@
+body {
+    background-color: #282828 !important;
+    color: #d4d4d4 !important;
+    overflow: hidden;
+}
+
+.light-mode {
+    background-color: #f7f7f7 !important;
+    color: #282828 !important;
+}

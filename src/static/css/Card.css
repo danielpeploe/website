@@ -1,5 +1,10 @@
 .card {
     background-color: #353435 !important;
-    color: white !important;
+    color: #fbfbfb !important;
     min-height: 100%;
+}
+
+.card.lightmode {
+    background-color: #fbfbfb !important;
+    color: #353435 !important;
 }
