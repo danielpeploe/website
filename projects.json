@@ -41,5 +41,12 @@
       "description": "As a part of my final year research project, I am currently in the process of implementing a classifier algorithm to aid in the detection of Diabetic Retinopathy and Age-related macular degeneration in retinal images. I will make use of Python and TensorFlow in the project.",
       "img": "RetinalImaging.png",
       "techstack": []
+    },
+    {
+      "id": 7,
+      "title": "Film Festival React App",
+      "description": "This project was a Film Festival website I made adhering to a specified API and user requirements. It incorporated a RESTful API, Express Node.js framework, MySQL database, and React. The app had functionality such as reviews, searching, filtering and user authentication. I learn Postman through testing the endpoints.",
+      "img": "FilmFestival.png",
+      "techstack": []
     }
 ]
